@@ -1,0 +1,26 @@
+﻿生成启动时间为 2015/10/26 10:58:24。
+     1>项目“G:\ZKHY\PROGRAM\serialport - 副本\serialport\serialport.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\program files\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\serialport.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         D:\program files\vs2013\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\serialport.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt serialport.cpp serialportDlg.cpp
+         serialport.cpp
+         serialportDlg.cpp
+     1>serialportDlg.cpp(102): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>serialportDlg.cpp(456): warning C4018: “<”: 有符号/无符号不匹配
+     1>serialportDlg.cpp(524): warning C4244: “=”: 从“double”转换到“long”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.1A\bin\rc.exe /D NDEBUG /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /l"0x0804" /IRelease\ /nologo /fo"Release\serialport.res" serialport.rc 
+       Link:
+         D:\program files\vs2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\ZKHY\PROGRAM\serialport - 副本\Release\serialport.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"D:\program files\vs2013\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"G:\ZKHY\PROGRAM\serialport - 副本\Release\serialport.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\ZKHY\PROGRAM\serialport - 副本\Release\serialport.lib" /MACHINE:X86 /SAFESEH Release\serialport.res
+         Release\serialport.obj
+         Release\serialportDlg.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         serialport.vcxproj -> G:\ZKHY\PROGRAM\serialport - 副本\Release\serialport.exe
+     1>已完成生成项目“G:\ZKHY\PROGRAM\serialport - 副本\serialport\serialport.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:13.71
